@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ubicacion"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Ubicaciones Almacenadas: "
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tvUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:scrollbars="vertical"
+        android:overScrollMode="always" />
+</LinearLayout>
