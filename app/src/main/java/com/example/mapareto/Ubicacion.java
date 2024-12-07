@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class Ubicacion extends AppCompatActivity {
     TextView vRegistros; // Vista para mostrar los datos
     Cursor c; // Cursor para manejar los resultados de la base de datos
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
